@@ -30,6 +30,36 @@ El siguiente proyecto es una API para gestionar una lista de tareas. Esta desarr
 └───index.ts             # Script de inicio del servidor
 ```
 
+## ```.env```
+
+```
+# === GENERALES ===
+# Título y descripción para la documentación de la API
+TITLE=API de Tareas
+DESCRIPTION=API para el manejo de tareas
+VERSION=0.0.1
+API_URL=http://localhost:3000/0.0.1
+
+# === CONFIGURACIONES BACKEND NODEJS ===
+# Puerto en el que correrá el servidor
+PORT=3000
+# Entorno de desarrollo (development, production, etc.)
+NODE_ENV=development
+
+# === CREDENCIALES JWT ===
+# Clave secreta para firmar los JSON Web Tokens
+SECRET_KEY=2vsvx8-HoH45q-4eXzOW-K9bOWp
+# Número de rondas de salt para el hash de contraseñas con bcrypt
+SALT_ROUNDS=10
+
+# === CREDENCIALES DE INFRAESTRUCTURA ===
+# URI de conexión a la base de datos MongoDB
+MONGO_DB_URL=mongodb://localhost/test_db
+
+# === FRONTEND Y CORS ===
+# URL del frontend permitida para realizar peticiones (CORS)
+FRONTEND_AVAILABLE_URL=http://localhost:5173
+```
 
 ## Iniciar con NPM
 
