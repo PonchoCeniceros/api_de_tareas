@@ -45,7 +45,14 @@ El siguiente proyecto es una API para gestionar una lista de tareas. Esta desarr
     ```bash
     npm start
     ```
-4.  Para desarrollo, puedes usar:
+4.  Para desarrollo:
     ```bash
     npm run dev
     ```
+    el proyecto correrá en `http://localhost:3000`.
+
+## Imagenes del proyecto
+
+<p align="center">
+  <img src="https://github.com/PonchoCeniceros/api_de_tareas/blob/main/.imgs/01.png" width="500">
+</p>
